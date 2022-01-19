@@ -1,0 +1,22 @@
+server:
+  port: 10013
+
+spring:
+  application:
+    name: Slave001
+  jackson:
+    serialization:
+      indent-output: true
+
+kingmeter:
+  hardwareInRedisTime: 600
+  httpRequestFlag: false
+  default:
+    MinSoc : 10
+    companyCode: 4701
+    timezone: 8
+  business:
+    baseUrl : http://www.baidu.com
+  tokenKey : a
+  tokenValue : b
+
